@@ -1,0 +1,16 @@
+Dataset,Feature Config,Model,Batch Size,Latency mean (ms/batch),Latency p95 (ms/batch),Latency mean (ms/sample),Model+featurizer size (MB),Peak inference memory (MB),Train time (s),F1 (macro),AUC-ROC,Feature dim
+IDS2018,Lexical-Word (TF-IDF 1-2),Logistic Regression,32,0.1708,0.1841,0.0053,0.1284,0.0053,0.596,0.9893,0.999,10000
+IDS2018,Lexical-Word (TF-IDF 1-2),Random Forest,32,30.4737,36.5928,0.9523,0.1918,0.1681,4.101,0.7672,0.998,10000
+IDS2018,Lexical-Word (TF-IDF 1-2),Soft-Voting Ensemble,32,32.682,39.4395,1.0213,0.2412,0.1609,4.591,0.9892,0.9989,10000
+IDS2018,Structural-Char (TF-IDF 3-5),Logistic Regression,32,0.1907,0.2269,0.006,0.1561,0.0052,1.844,0.9976,0.9996,10000
+IDS2018,Structural-Char (TF-IDF 3-5),Random Forest,32,31.2513,38.9856,0.9766,0.6903,0.2713,18.467,0.9959,0.9997,10000
+IDS2018,Structural-Char (TF-IDF 3-5),Soft-Voting Ensemble,32,31.2658,34.1813,0.9771,0.7577,0.2988,20.4017,0.9978,0.9998,10000
+IDS2018,Semantic-Entity (regex counts),Logistic Regression,32,0.2565,0.3999,0.008,0.0008,0.0052,0.101,0.4485,0.5,5
+IDS2018,Semantic-Entity (regex counts),Random Forest,32,31.6949,37.1776,0.9905,0.005,0.1446,2.363,0.4485,0.5,5
+IDS2018,Semantic-Entity (regex counts),Soft-Voting Ensemble,32,33.6277,42.7417,1.0509,0.0056,0.1429,2.623,0.4485,0.5,5
+IDS2018,Hybrid-Robust (char TF-IDF + entity),Logistic Regression,32,0.1914,0.2201,0.006,0.1566,0.0052,1.946,0.9976,0.9996,10005
+IDS2018,Hybrid-Robust (char TF-IDF + entity),Random Forest,32,31.6757,35.6733,0.9899,0.6956,0.2699,19.141,0.9958,0.9996,10005
+IDS2018,Hybrid-Robust (char TF-IDF + entity),Soft-Voting Ensemble,32,35.1373,45.6867,1.098,0.7628,0.2806,21.433,0.9979,0.9998,10005
+IDS2018,Char-Hashing (n_features=10000),Logistic Regression,32,0.2352,0.2634,0.0073,0.0743,0.0052,2.758,0.9976,0.9995,10000
+IDS2018,Char-Hashing (n_features=10000),Random Forest,32,31.199,36.5342,0.975,0.6569,0.2837,20.299,0.9972,0.9999,10000
+IDS2018,Char-Hashing (n_features=10000),Soft-Voting Ensemble,32,34.3342,40.9718,1.0729,0.7314,0.2879,22.7385,0.9979,0.9999,10000

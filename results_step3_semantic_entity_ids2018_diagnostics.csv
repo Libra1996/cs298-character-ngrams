@@ -1,0 +1,2 @@
+rows_total,rows_with_any_entity,mean_count_ip,mean_count_url,mean_count_cve,mean_count_hash,mean_count_path,max_count_ip,max_count_url,max_count_cve,max_count_hash,max_count_path
+443062,0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0

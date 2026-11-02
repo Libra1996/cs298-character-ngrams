@@ -1,0 +1,4 @@
+Feature Config,Model,Accuracy,Precision (macro),Recall (macro),F1 (macro),AUC-ROC
+Semantic-Entity (regex counts),Logistic Regression,0.8131493616413004,0.4065746808206502,0.5,0.44847345665181204,0.5
+Semantic-Entity (regex counts),Random Forest,0.8131493616413004,0.4065746808206502,0.5,0.44847345665181204,0.5
+Semantic-Entity (regex counts),Soft-Voting Ensemble,0.8131493616413004,0.4065746808206502,0.5,0.44847345665181204,0.5

@@ -1,0 +1,4 @@
+split,model,n_pos,n_test,caught_at_0.5,recall_at_fpr_0.01,auc
+forward10_numeric_text_dedup,Logistic Regression,53,169408,4,1.0,0.9998217432066058
+forward10_numeric_text_dedup,Random Forest,53,169408,49,1.0,1.0
+forward10_numeric_text_dedup,Soft-Voting Ensemble,53,169408,4,1.0,0.9999590009375192

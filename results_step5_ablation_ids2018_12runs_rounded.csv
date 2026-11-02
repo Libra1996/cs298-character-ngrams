@@ -1,0 +1,13 @@
+Dataset,Feature Config,Model,Accuracy,Precision (macro),Recall (macro),F1 (macro),AUC-ROC
+IDS2018,Lexical-Word (TF-IDF 1-2),Logistic Regression,0.9935,0.9895,0.989,0.9893,0.999
+IDS2018,Lexical-Word (TF-IDF 1-2),Random Forest,0.8924,0.9401,0.7126,0.7672,0.998
+IDS2018,Lexical-Word (TF-IDF 1-2),Soft-Voting Ensemble,0.9935,0.9904,0.9881,0.9892,0.9989
+IDS2018,Structural-Char (TF-IDF 3-5),Logistic Regression,0.9986,0.9978,0.9975,0.9976,0.9996
+IDS2018,Structural-Char (TF-IDF 3-5),Random Forest,0.9975,0.9972,0.9947,0.9959,0.9997
+IDS2018,Structural-Char (TF-IDF 3-5),Soft-Voting Ensemble,0.9987,0.9984,0.9972,0.9978,0.9998
+IDS2018,Semantic-Entity (regex counts),Logistic Regression,0.8131,0.4066,0.5,0.4485,0.5
+IDS2018,Semantic-Entity (regex counts),Random Forest,0.8131,0.4066,0.5,0.4485,0.5
+IDS2018,Semantic-Entity (regex counts),Soft-Voting Ensemble,0.8131,0.4066,0.5,0.4485,0.5
+IDS2018,Hybrid-Robust (char TF-IDF + entity),Logistic Regression,0.9986,0.9978,0.9975,0.9976,0.9996
+IDS2018,Hybrid-Robust (char TF-IDF + entity),Random Forest,0.9975,0.9978,0.9939,0.9958,0.9996
+IDS2018,Hybrid-Robust (char TF-IDF + entity),Soft-Voting Ensemble,0.9987,0.9985,0.9972,0.9979,0.9998

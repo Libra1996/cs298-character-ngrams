@@ -1,0 +1,7 @@
+Dataset: mrmoor/cyber-threat-intelligence
+URL: https://huggingface.co/datasets/mrmoor/cyber-threat-intelligence
+License: CC BY 4.0
+Creator: Alexander Schwankner (HF: mrmoor)
+Related thesis: Schwankner, A. (2023). Extraktion von Informationen/TTPs aus Bedrohungsberichten zur Erstellung von Wissensgraphen durch den Einsatz von Machine Learning. Master thesis, Hochschule Munchen.
+URN: urn:nbn:de:bvb:m347-opus-4644
+The snippet files in this folder are that public corpus. I use them only to test the five regex counts. They are not mixed into the flow training set.

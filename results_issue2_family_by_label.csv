@@ -1,0 +1,25 @@
+config,model,label,n,caught_at_0.5,caught_at_fpr_0.01
+Lexical-Word,Logistic Regression,SSH-Bruteforce,32113,32000,32098
+Lexical-Word,Logistic Regression,FTP-BruteForce,53,0,0
+Lexical-Word,Random Forest,SSH-Bruteforce,32113,17776,31813
+Lexical-Word,Random Forest,FTP-BruteForce,53,0,0
+Lexical-Word,Soft-Voting Ensemble,SSH-Bruteforce,32113,31558,32096
+Lexical-Word,Soft-Voting Ensemble,FTP-BruteForce,53,0,0
+Structural-Char,Logistic Regression,SSH-Bruteforce,32113,32030,32067
+Structural-Char,Logistic Regression,FTP-BruteForce,53,3,33
+Structural-Char,Random Forest,SSH-Bruteforce,32113,31856,32041
+Structural-Char,Random Forest,FTP-BruteForce,53,7,51
+Structural-Char,Soft-Voting Ensemble,SSH-Bruteforce,32113,31998,32095
+Structural-Char,Soft-Voting Ensemble,FTP-BruteForce,53,1,52
+Semantic-Entity,Logistic Regression,SSH-Bruteforce,32113,0,0
+Semantic-Entity,Logistic Regression,FTP-BruteForce,53,0,0
+Semantic-Entity,Random Forest,SSH-Bruteforce,32113,0,0
+Semantic-Entity,Random Forest,FTP-BruteForce,53,0,0
+Semantic-Entity,Soft-Voting Ensemble,SSH-Bruteforce,32113,0,0
+Semantic-Entity,Soft-Voting Ensemble,FTP-BruteForce,53,0,0
+Hybrid-Robust,Logistic Regression,SSH-Bruteforce,32113,32030,32067
+Hybrid-Robust,Logistic Regression,FTP-BruteForce,53,3,33
+Hybrid-Robust,Random Forest,SSH-Bruteforce,32113,31867,32053
+Hybrid-Robust,Random Forest,FTP-BruteForce,53,4,47
+Hybrid-Robust,Soft-Voting Ensemble,SSH-Bruteforce,32113,32001,32094
+Hybrid-Robust,Soft-Voting Ensemble,FTP-BruteForce,53,1,52

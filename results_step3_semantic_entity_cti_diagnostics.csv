@@ -1,0 +1,2 @@
+dataset,rows_total,label_1_ioc_bearing,label_0_other,rows_with_any_regex_entity,mean_count_ip,mean_count_url,mean_count_cve,mean_count_hash,mean_count_path,max_count_ip,max_count_url,max_count_cve,max_count_hash,max_count_path
+mrmoor/cyber-threat-intelligence,9732,3565,6167,617,0.007295519934237567,0.02466091245376079,0.024866420057542128,0.07367447595561036,0.051993423756678994,21,37,12,64,42
