@@ -1,0 +1,25 @@
+n,n_pos,f1_macro,attack_precision,attack_recall,ftp_n,ftp_caught,ssh_n,ssh_caught,split,unit,feature,model
+4607,1,0.49967419635099913,0.0,0.0,1,0,0,0,10:00,string,Lexical-Word,Logistic Regression
+341512,39346,0.4694324602709761,0.0,0.0,39346,0,0,0,10:00,flow,Lexical-Word,Logistic Regression
+4607,1,0.4999457288613915,0.0,0.0,1,0,0,0,10:00,string,Lexical-Word,Random Forest
+341512,39346,0.4694365816448597,0.0,0.0,39346,0,0,0,10:00,flow,Lexical-Word,Random Forest
+4607,1,0.4999457288613915,0.0,0.0,1,0,0,0,10:00,string,Lexical-Word,Soft-Voting Ensemble
+341512,39346,0.4694365816448597,0.0,0.0,39346,0,0,0,10:00,flow,Lexical-Word,Soft-Voting Ensemble
+4607,1,0.4999457288613915,0.0,0.0,1,0,0,0,10:00,string,Structural-Char,Logistic Regression
+341512,39346,0.4694365816448597,0.0,0.0,39346,0,0,0,10:00,flow,Structural-Char,Logistic Regression
+4607,1,0.4997285264415246,0.0,0.0,1,0,0,0,10:00,string,Structural-Char,Random Forest
+341512,39346,0.4694324602709761,0.0,0.0,39346,0,0,0,10:00,flow,Structural-Char,Random Forest
+4607,1,0.4999457288613915,0.0,0.0,1,0,0,0,10:00,string,Structural-Char,Soft-Voting Ensemble
+341512,39346,0.4694365816448597,0.0,0.0,39346,0,0,0,10:00,flow,Structural-Char,Soft-Voting Ensemble
+5600,38,0.4981179422835634,0.0,0.0,1,0,37,0,hour,string,Lexical-Word,Logistic Regression
+505320,70453,0.4625301669994033,0.0,0.0,28477,0,41976,0,hour,flow,Lexical-Word,Logistic Regression
+5600,38,0.49829779609388997,0.0,0.0,1,0,37,0,hour,string,Lexical-Word,Random Forest
+505320,70453,0.4625324536501781,0.0,0.0,28477,0,41976,0,hour,flow,Lexical-Word,Random Forest
+5600,38,0.49829779609388997,0.0,0.0,1,0,37,0,hour,string,Lexical-Word,Soft-Voting Ensemble
+505320,70453,0.4625324536501781,0.0,0.0,28477,0,41976,0,hour,flow,Lexical-Word,Soft-Voting Ensemble
+5600,38,0.49829779609388997,0.0,0.0,1,0,37,0,hour,string,Structural-Char,Logistic Regression
+505320,70453,0.4625324536501781,0.0,0.0,28477,0,41976,0,hour,flow,Structural-Char,Logistic Regression
+5600,38,0.9424977538185085,0.96875,0.8157894736842105,1,0,37,31,hour,string,Structural-Char,Random Forest
+505320,70453,0.8026679787910149,0.9999702496058073,0.47708401345577905,28477,0,41976,33612,hour,flow,Structural-Char,Random Forest
+5600,38,0.9057112068965517,1.0,0.6842105263157895,1,0,37,26,hour,string,Structural-Char,Soft-Voting Ensemble
+505320,70453,0.674553802310173,1.0,0.2547372006869828,28477,0,41976,17947,hour,flow,Structural-Char,Soft-Voting Ensemble
